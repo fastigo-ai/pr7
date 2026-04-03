@@ -9,7 +9,7 @@ import { Textarea } from "@/components/ui/textarea";
 import { toast } from "sonner";
 import { Trash2, Plus, Edit, Loader2, Image as ImageIcon, LogOut, FileText, Briefcase, Globe, MapPin, UserPlus, Users, Mail, Phone, GraduationCap, Navigation } from "lucide-react";
 
-const API_BASE_URL = "http://127.0.0.1:8000/api/v1";
+const API_BASE_URL = "https://pr7backend.onrender.com/api/v1";
 
 const Admin = () => {
   const [gallery, setGallery] = useState([]);
