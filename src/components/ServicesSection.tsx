@@ -4,7 +4,7 @@ import { Shield, Eye, Users, Building2, Camera, Lock, UserCheck, Building } from
 import { useState, useEffect } from "react";
 import parallaxCity from "@/assets/parallax-city.jpg";
 
-const API_BASE_URL = "http://localhost:8000/api/v1";
+const API_BASE_URL = "https://pr7backend.onrender.com/api/v1";
 
 const ServicesSection = ({ isSlider = false, hideHeader = false }: { isSlider?: boolean; hideHeader?: boolean }) => {
   const [services, setServices] = useState([]);

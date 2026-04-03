@@ -7,7 +7,7 @@ import { Input } from "@/components/ui/input";
 import { toast } from "sonner";
 import { Lock, User, Loader2 } from "lucide-react";
 
-const API_BASE_URL = "http://localhost:8000/api/v1";
+const API_BASE_URL = "https://pr7backend.onrender.com/api/v1";
 
 const Login = () => {
   const [username, setUsername] = useState("");

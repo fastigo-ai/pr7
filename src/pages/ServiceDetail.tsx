@@ -7,7 +7,7 @@ import { Shield, ArrowLeft, CheckCircle2 } from "lucide-react";
 import { Button } from "@/components/ui/button";
 import parallaxCity from "@/assets/parallax-city.jpg";
 
-const API_BASE_URL = "http://localhost:8000/api/v1";
+const API_BASE_URL = "https://pr7backend.onrender.com/api/v1";
 
 const ServiceDetail = () => {
   const { id } = useParams();

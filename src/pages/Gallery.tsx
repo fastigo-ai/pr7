@@ -4,7 +4,7 @@ import { motion } from "framer-motion";
 import parallaxCity from "@/assets/parallax-city.jpg";
 import { useEffect, useState } from "react";
 
-const API_BASE_URL = "http://localhost:8000/api/v1";
+const API_BASE_URL = "https://pr7backend.onrender.com/api/v1";
 
 const Gallery = () => {
   const [galleryImages, setGalleryImages] = useState([]);
