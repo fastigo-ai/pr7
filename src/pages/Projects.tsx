@@ -5,7 +5,7 @@ import { motion } from "framer-motion";
 import { Building2, Home, Factory, UserCheck, ShieldCheck, Briefcase, Zap, Globe, Loader2 } from "lucide-react";
 import parallaxCity from "@/assets/parallax-city.jpg";
 
-const API_BASE_URL = "http://127.0.0.1:8000/api/v1";
+const API_BASE_URL = "https://pr7backend.onrender.com/api/v1";
 
 const Projects = () => {
   const [caseStudies, setCaseStudies] = useState([]);
