@@ -4,7 +4,7 @@ import Footer from "@/components/Footer";
 import { motion, AnimatePresence } from "framer-motion";
 import { Briefcase, MapPin, Clock, ChevronRight, CheckCircle2, Loader2, ArrowRight } from "lucide-react";
 
-const API_BASE_URL = "http://127.0.0.1:8000/api/v1";
+const API_BASE_URL = "https://pr7-psi.vercel.app/api/v1";
 
 const Careers = () => {
   const [vacancies, setVacancies] = useState([]);
